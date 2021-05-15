@@ -1,0 +1,7 @@
+{
+  "parent" : "minecraft:item/generated",
+  "textures" : {
+    "layer0" : "culinary_arts:item/whipped_cream",
+    "layer1" : "culinary_arts:item/bowl_cutout"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace" : false,
+  "values" : [
+    "culinary_arts:whipped_cream",
+    "culinary_arts:buttercream",
+    "culinary_arts:ganache",
+    "#culinary_arts:jams"
+  ]
+}

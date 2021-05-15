@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "culinary_arts:salt_block"
+    }
+  ],
+  "result": {
+    "item": "culinary_arts:salt",
+    "count": 9
+  }
+}

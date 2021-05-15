@@ -1,0 +1,8 @@
+{
+  "type": "culinary_arts:cooking_pot",
+  "ingredient": "minecraft:egg",
+  "result": {
+    "item" : "culinary_arts:hard_boiled_egg"
+  },
+  "cookingtime" : 500
+}

@@ -1,0 +1,49 @@
+{
+  "block.culinary_arts.salted_stone" : "Salted Stone",
+  "block.culinary_arts.salt_block" : "Block of Salt",
+
+  "block.culinary_arts.cooking_pot" : "Cooking Pot",
+  "block.culinary_arts.brick_oven" : "Brick Oven",
+
+
+
+  "item.culinary_arts.salt" : "Salt",
+  "item.culinary_arts.macaronage" : "Macaronage",
+  "item.culinary_arts.whipped_cream" : "Whipped Cream",
+  "item.culinary_arts.buttercream" : "Buttercream",
+  "item.culinary_arts.ganache" : "Ganache",
+  "item.culinary_arts.apple_jam" : "Apple Jam",
+  "item.culinary_arts.grape_jam" : "Grape Jam",
+  "item.culinary_arts.marinara_sauce" : "Marinara Sauce",
+  "item.culinary_arts.alfredo_sauce" : "Alfredo Sauce",
+  "item.culinary_arts.carbonara_sauce" : "Carbonara Sauce",
+  "item.culinary_arts.pizza_dough" : "Pizza Dough",
+
+  "item.culinary_arts.apple_core" : "Apple Core",
+  "item.culinary_arts.golden_apple_core" : "Golden Apple Core",
+  "item.culinary_arts.beetroot_stems" : "Beetroot Stems",
+  "item.culinary_arts.carrot_stem" : "Carrot Stem",
+  "item.culinary_arts.golden_carrot_stem" : "Golden Carrot Stem",
+  "item.culinary_arts.chorus_pit" : "Chorus Pit",
+  "item.culinary_arts.melon_rind" : "Melon Rind",
+
+  "item.culinary_arts.soggy_food" : "Soggy Food",
+  "item.culinary_arts.burnt_food" : "Burnt Food",
+  "item.culinary_arts.hard_boiled_egg" : "Hard-boiled Egg",
+  "item.culinary_arts.cheese" : "Cheese",
+  "item.culinary_arts.macaron_shell" : "Macaron Shell",
+  "item.culinary_arts.macaron" : "Macaron",
+  "item.culinary_arts.blueberry" : "Blueberry",
+  "item.culinary_arts.tomato" : "Tomato",
+  "item.culinary_arts.banana_bunch" : "Bunch of Bananas",
+  "item.culinary_arts.corn" : "Corn",
+  "item.culinary_arts.sugar_cookie" : "Sugar Cookie",
+  "item.culinary_arts.apple_pie" : "Apple Pie",
+  "item.culinary_arts.toast" : "Toast",
+  "item.culinary_arts.pizza" : "Pizza",
+
+
+
+  "container.cooking_pot" : "Cooking Pot",
+  "container.brick_oven" : "Brick Oven"
+}

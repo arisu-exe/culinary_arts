@@ -1,0 +1,8 @@
+{
+  "replace" : false,
+  "values" : [
+    "culinary_arts:marinara_sauce",
+    "culinary_arts:alfredo_sauce",
+    "culinary_arts:carbonara_sauce"
+  ]
+}

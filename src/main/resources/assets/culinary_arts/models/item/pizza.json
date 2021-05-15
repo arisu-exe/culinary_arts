@@ -1,0 +1,34 @@
+{
+  "parent" : "minecraft:item/generated",
+  "textures" : {
+    "layer0" : "culinary_arts:item/pizza_sauce",
+    "layer1" : "culinary_arts:item/pizza_cutout",
+    "layer2" : "culinary_arts:item/pizza_cheese"
+  },
+  "overrides" : [
+    {
+      "predicate" : {
+        "culinary_arts:pizza_pepperoni" : 1
+      },
+      "layer3" : "culinary_arts:item/pizza_pepperoni"
+    },
+    {
+      "predicate" : {
+        "culinary_arts:pizza_chicken" : 1
+      },
+      "layer4" : "culinary_arts:item/pizza_chicken"
+    },
+    {
+      "predicate" : {
+        "culinary_arts:pizza_anchovies" : 1
+      },
+      "layer5" : "culinary_arts:item/pizza_anchovies"
+    },
+    {
+      "predicate" : {
+        "culinary_arts:pizza_mushrooms" : 1
+      },
+      "layer6" : "culinary_arts:item/pizza_mushrooms"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "culinary_arts:salted_stone"
+  },
+  "result": "culinary_arts:salt",
+  "experience": 1.0,
+  "cookingtime": 100
+}
