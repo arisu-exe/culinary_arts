@@ -1,0 +1,6 @@
+{
+  "parent" : "minecraft:block/cross",
+  "textures" : {
+    "cross" : "culinary_arts:block/tomato_plant_2"
+  }
+}

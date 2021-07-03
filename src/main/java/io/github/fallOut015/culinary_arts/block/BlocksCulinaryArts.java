@@ -31,6 +31,8 @@ public class BlocksCulinaryArts {
     public static final RegistryObject<Block> COOKING_POT = BLOCKS.register("cooking_pot", () -> new CookingPotBlock(AbstractBlock.Properties.of(Material.METAL).noOcclusion()));
     public static final RegistryObject<Block> BRICK_OVEN = BLOCKS.register("brick_oven", () -> new BrickOvenBlock(AbstractBlock.Properties.of(Material.STONE).noOcclusion()));
     // Food Steamer
+    public static final RegistryObject<Block> TOMATO = BLOCKS.register("tomato", () -> new TomatoTopBlock(Block.Properties.of(Material.PLANT, MaterialColor.PLANT).strength(1.0f, 0.5f).noOcclusion().noCollission().randomTicks()));
+    public static final RegistryObject<Block> TOMATO_PLANT = BLOCKS.register("tomato_plant", () -> new TomatoBlock(Block.Properties.of(Material.PLANT, MaterialColor.PLANT).strength(1.0f, 0.5f).noOcclusion().noCollission().randomTicks()));
 
 
 

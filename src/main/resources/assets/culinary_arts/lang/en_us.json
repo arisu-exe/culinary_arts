@@ -5,6 +5,9 @@
   "block.culinary_arts.cooking_pot" : "Cooking Pot",
   "block.culinary_arts.brick_oven" : "Brick Oven",
 
+  "block.culinary_arts.tomato" : "Tomato",
+  "block.culinary_arts.tomato_plant" : "Tomato Plant",
+
 
 
   "item.culinary_arts.salt" : "Salt",
@@ -18,6 +21,7 @@
   "item.culinary_arts.alfredo_sauce" : "Alfredo Sauce",
   "item.culinary_arts.carbonara_sauce" : "Carbonara Sauce",
   "item.culinary_arts.pizza_dough" : "Pizza Dough",
+  "item.culinary_arts.recipe_book" : "Recipe Book",
 
   "item.culinary_arts.apple_core" : "Apple Core",
   "item.culinary_arts.golden_apple_core" : "Golden Apple Core",
@@ -34,7 +38,6 @@
   "item.culinary_arts.macaron_shell" : "Macaron Shell",
   "item.culinary_arts.macaron" : "Macaron",
   "item.culinary_arts.blueberry" : "Blueberry",
-  "item.culinary_arts.tomato" : "Tomato",
   "item.culinary_arts.banana_bunch" : "Bunch of Bananas",
   "item.culinary_arts.corn" : "Corn",
   "item.culinary_arts.sugar_cookie" : "Sugar Cookie",

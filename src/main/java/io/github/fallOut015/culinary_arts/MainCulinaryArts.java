@@ -1,6 +1,7 @@
 package io.github.fallOut015.culinary_arts;
 
 import io.github.fallOut015.culinary_arts.block.BlocksCulinaryArts;
+import io.github.fallOut015.culinary_arts.client.RenderTypeLookupCulinaryArts;
 import io.github.fallOut015.culinary_arts.client.gui.ScreenManagerCulinaryArts;
 import io.github.fallOut015.culinary_arts.client.renderer.color.ItemColorsCulinaryArts;
 import io.github.fallOut015.culinary_arts.inventory.container.ContainersCulinaryArts;
@@ -9,6 +10,7 @@ import io.github.fallOut015.culinary_arts.item.ItemsCulinaryArts;
 import io.github.fallOut015.culinary_arts.item.crafting.RecipeSerializersCulinaryArts;
 import io.github.fallOut015.culinary_arts.tileentity.TileEntitiesCulinaryArts;
 import io.github.fallOut015.culinary_arts.world.gen.feature.FeaturesCulinaryArts;
+import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraftforge.common.MinecraftForge;
@@ -49,6 +51,7 @@ public class MainCulinaryArts {
         ScreenManagerCulinaryArts.doClientStuff(event);
         ItemColorsCulinaryArts.doClientStuff(event);
         ItemModelPropertiesCulinaryArts.doClientStuff(event);
+        RenderTypeLookupCulinaryArts.doClientStuff(event);
     }
     private void enqueueIMC(final InterModEnqueueEvent event) {
     }

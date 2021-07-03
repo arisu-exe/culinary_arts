@@ -42,8 +42,9 @@ public class ItemsCulinaryArts {
     public static final RegistryObject<Item> GRAPE_JAM = ITEMS.register("grape_jam", () -> new ColoredItem(14891953, new Item.Properties().tab(ItemGroup.TAB_MISC)));
     public static final RegistryObject<Item> MARINARA_SAUCE = ITEMS.register("marinara_sauce", () -> new ColoredItem(11872020, new Item.Properties().tab(ItemGroup.TAB_MISC)));
     public static final RegistryObject<Item> ALFREDO_SAUCE = ITEMS.register("alfredo_sauce", () -> new ColoredItem(16117961, new Item.Properties().tab(ItemGroup.TAB_MISC)));
-    public static final RegistryObject<Item> CARBONARA_SAUCE = ITEMS.register("carbonara_sauce", () -> new ColoredItem(16646079, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> CARBONARA_SAUCE = ITEMS.register("carbonara_sauce", () -> new ColoredItem(16183674, new Item.Properties().tab(ItemGroup.TAB_MISC)));
     public static final RegistryObject<Item> PIZZA_DOUGH = ITEMS.register("pizza_dough", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> RECIPE_BOOK = ITEMS.register("recipe_book", () -> new RecipeBookItem(new Item.Properties().tab(ItemGroup.TAB_MISC)));
 
     public static final RegistryObject<Item> APPLE_CORE = ITEMS.register("apple_core", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
     public static final RegistryObject<Item> GOLDEN_APPLE_CORE = ITEMS.register("golden_apple_core", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
@@ -61,7 +62,7 @@ public class ItemsCulinaryArts {
     public static final RegistryObject<Item> MACARON_SHELL = ITEMS.register("macaron_shell", () -> new MultiColoredItem(new Item.Properties().tab(ItemGroup.TAB_FOOD).food(FoodsCulinaryArts.MACARON_SHELL)));
     public static final RegistryObject<Item> MACARON = ITEMS.register("macaron", () -> new MacaronItem(new Item.Properties().tab(ItemGroup.TAB_FOOD).food(FoodsCulinaryArts.MACARON)));
     public static final RegistryObject<Item> BLUEBERRY = ITEMS.register("blueberry", () -> new Item(new Item.Properties().food(FoodsCulinaryArts.BLUEBERRY).tab(ItemGroup.TAB_FOOD)));
-    public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato", () -> new Item(new Item.Properties().food(FoodsCulinaryArts.TOMATO).tab(ItemGroup.TAB_FOOD)));
+    public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato", () -> new BlockItem(BlocksCulinaryArts.TOMATO.get(), new Item.Properties().food(FoodsCulinaryArts.TOMATO).tab(ItemGroup.TAB_FOOD)));
     public static final RegistryObject<Item> BANANA_BUNCH = ITEMS.register("banana_bunch", () -> new Item(new Item.Properties().food(FoodsCulinaryArts.BANANA_BUNCH).tab(ItemGroup.TAB_FOOD)));
     public static final RegistryObject<Item> CORN = ITEMS.register("corn", () -> new Item(new Item.Properties().food(FoodsCulinaryArts.CORN).tab(ItemGroup.TAB_FOOD)));
     public static final RegistryObject<Item> SUGAR_COOKIE = ITEMS.register("sugar_cookie", () -> new Item(new Item.Properties().food(FoodsCulinaryArts.SUGAR_COOKIE).tab(ItemGroup.TAB_FOOD)));
