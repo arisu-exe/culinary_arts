@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=east": {
+      "model": "culinary_arts:block/brick_oven",
+      "y": 90
+    },
+    "facing=north": {
       "model": "culinary_arts:block/brick_oven"
+    },
+    "facing=south": {
+      "model": "culinary_arts:block/brick_oven",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "culinary_arts:block/brick_oven",
+      "y": 270
     }
   }
 }
