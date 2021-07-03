@@ -3,6 +3,7 @@ package io.github.fallOut015.culinary_arts;
 import io.github.fallOut015.culinary_arts.block.BlocksCulinaryArts;
 import io.github.fallOut015.culinary_arts.client.RenderTypeLookupCulinaryArts;
 import io.github.fallOut015.culinary_arts.client.gui.ScreenManagerCulinaryArts;
+import io.github.fallOut015.culinary_arts.client.registry.ClientRegistryCulinaryArts;
 import io.github.fallOut015.culinary_arts.client.renderer.color.ItemColorsCulinaryArts;
 import io.github.fallOut015.culinary_arts.inventory.container.ContainersCulinaryArts;
 import io.github.fallOut015.culinary_arts.item.ItemModelPropertiesCulinaryArts;
@@ -52,6 +53,7 @@ public class MainCulinaryArts {
         ScreenManagerCulinaryArts.doClientStuff(event);
         ItemModelPropertiesCulinaryArts.doClientStuff(event);
         RenderTypeLookupCulinaryArts.doClientStuff(event);
+        ClientRegistryCulinaryArts.doClientStuff(event);
     }
     private void enqueueIMC(final InterModEnqueueEvent event) {
     }

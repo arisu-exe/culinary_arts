@@ -11,7 +11,7 @@ public class BrickOvenSlot extends Slot {
 
     @Override
     public boolean mayPlace(ItemStack stack) {
-        return !this.hasItem(); // TODO only let place if boilable
+        return !this.hasItem(); // TODO only let place if cookable
     }
     // TODO when attempted to place whole stack only place one
 }
