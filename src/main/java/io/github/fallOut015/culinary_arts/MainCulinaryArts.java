@@ -13,6 +13,7 @@ import io.github.fallOut015.culinary_arts.world.gen.feature.FeaturesCulinaryArts
 import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
+import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
@@ -49,7 +50,6 @@ public class MainCulinaryArts {
     }
     private void doClientStuff(final FMLClientSetupEvent event) {
         ScreenManagerCulinaryArts.doClientStuff(event);
-        ItemColorsCulinaryArts.doClientStuff(event);
         ItemModelPropertiesCulinaryArts.doClientStuff(event);
         RenderTypeLookupCulinaryArts.doClientStuff(event);
     }
@@ -64,6 +64,10 @@ public class MainCulinaryArts {
 
     @Mod.EventBusSubscriber
     public static class Events {
+        @SubscribeEvent
+        public void onColorHandlerItem(ColorHandlerEvent.Item event) {
+            ItemColorsCulinaryArts.onColorHandlerItem(event);
+        }
         @SubscribeEvent
         public static void onFinish(final LivingEntityUseItemEvent.Finish event) {
             ItemsCulinaryArts.onFinish(event);
