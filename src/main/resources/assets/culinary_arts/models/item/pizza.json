@@ -12,7 +12,7 @@
       "textures" : {
         "layer2": "culinary_arts:item/pizza_pepperoni"
       }
-    }
+    },
     {
       "predicate" : {
         "culinary_arts:pizza_chicken" : 1
